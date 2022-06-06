@@ -23,6 +23,7 @@
 		"dotenv-expand": "^5.1.0",
 		"eslint": "^8.3.0",
 		"eslint-config-react-app": "^7.0.1",
+		"eslint-plugin-react-internal": "link:./src/react/scripts/eslint-rules",
 		"eslint-webpack-plugin": "^3.1.1",
 		"file-loader": "^6.2.0",
 		"fs-extra": "^10.0.0",
@@ -55,8 +56,7 @@
 		"webpack": "^5.64.4",
 		"webpack-dev-server": "^4.6.0",
 		"webpack-manifest-plugin": "^4.0.2",
-		"workbox-webpack-plugin": "^6.4.1",
-		"eslint-plugin-react-internal": "link:./react/scripts/eslint-rules"
+		"workbox-webpack-plugin": "^6.4.1"
 	},
 	"scripts": {
 		"start": "node scripts/start.js",
